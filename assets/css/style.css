@@ -5,6 +5,33 @@
     margin: 0;
     color: white;
 }
+/* header and nav bar */
+header {
+    background-color: teal;
+}
+header h1 {
+    padding: 20px;
+    background-color: teal;
+    font-family:Arial, Helvetica, sans-serif;
+    display: inline-block;
+}
+header nav {
+    float: right;
+    margin-right: 5rem;
+    margin-top: 2.5rem;
+    background-color: teal;
+}
+header ul {
+    list-style-type: none;
+    background-color: teal;
+}
+header li {
+    display: inline;
+    justify-content: space-evenly;
+
+}
+
+/* background photo */
 
 .avatar {
   background-image: url('../img/code.jpg');
@@ -14,6 +41,9 @@
   height: 20rem;
   width: 100%;
 }
+
+
+/* twitch info */
 
 .float-left {
     height: 5rem;
